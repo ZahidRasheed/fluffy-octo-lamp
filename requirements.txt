@@ -1,0 +1,8 @@
+streamlit
+pandas
+sentence_transformers
+scikit-learn
+openai
+numpy
+python-dotenv
+openpyxl

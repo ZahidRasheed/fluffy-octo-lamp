@@ -5,8 +5,10 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from openai import OpenAI
 import re
+import os
 
-client = OpenAI(api_key='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')
+api_key = os.getenv('OPENAI_API_KEY')
+client = OpenAI(api_key=api_key)
 
 st.set_page_config(layout="wide")
 
